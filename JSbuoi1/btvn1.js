@@ -34,7 +34,7 @@ unitConversion(20);
 function heatUnitConversion(number) {
   let fConvert = number * 1.8 + 32;
   let kConvert = number + 273.5;
-  console.log(number + "độ C = " + fConvert + "độF");
-  console.log(number + "cm = " + kConvert + "độK");
+  console.log(number + "độ C = " + fConvert + " độF");
+  console.log(number + "độ C = " + kConvert + " độK");
 }
 heatUnitConversion(17);
